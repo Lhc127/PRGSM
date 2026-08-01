@@ -178,16 +178,3 @@ class PerceptualLoss(nn.Module):
 
 
         return content_loss
-
-# class DESTLOSS(nn.Module):
-#     def __init__(self):
-#         super(DESTLOSS, self).__init__()
-#         self.criterion = torch.nn.L1Loss()
-#
-#     def __call__(self, Gt_de, Gt_st, Fake_de, Fake_st):
-#         Gt_de = F.interpolate (Gt_de, size=(32,32), mode='bilinear')
-#         Gt_st = F.interpolate (Gt_st, size=(32,32), mode='bilinear')
-#
-#
-#
-#         return content_loss
