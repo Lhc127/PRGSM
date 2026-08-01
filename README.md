@@ -7,3 +7,5 @@
 - python train.py  --de_root='' --mask_root='' -ref_root=''
 ## Testing
 - python test.py  --de_root='' --mask_root='' -ref_root=''
+## Code
+- The code will be continuously updated in future versions of this repository.
